@@ -1,0 +1,682 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Rousseau Ventures Offical Website</title>
+
+    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+   
+    <link rel="icon" href="assets\images\logo\TW-RousseauVentures-ICON-black-Reverse.jpg">
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="preloader">
+            <div class="spinner-border text-primary"></div>
+        </div>
+    </div>
+
+    <!-- Header Area Start Here -->
+    <header class="main-header-area header-transparent header-sticky">
+        <!-- Main Header Area Start -->
+        <div class="main-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-xl-2 col-md-6 col-6">
+                        <div class="header-logo d-flex align-items-center">
+                            <a href="#home">
+                                <img class="nonsticky-logo img-full" src="assets\images\logo\ALT-TW-RousseauVentures-black-Reverse.jpg" alt="RV Logo">
+                                <img class="sticky-logo img-full" src="assets\images\logo\ALT-TW-RousseauVentures-white-removebg-preview.png" alt="RV Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-6 col-6 d-flex justify-content-end">
+                        <nav class="main-nav d-none d-lg-flex">
+                            <ul class="nav">
+                                <li>
+                                    <a class="active" href="#home">
+                                        <span class="menu-text"> Home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="menu-text">About</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#services">
+                                        <span class="menu-text"> Services </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#clients">
+                                        <span class="menu-text"> Clients </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#contact">
+                                        <span class="menu-text">Contact</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-right-area main-nav">
+                            <ul class="nav">
+                                <li class="account-menu-wrap d-none d-lg-flex">
+                                    <a href="#" class="off-canvas-menu-btn">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                </li>
+                                <li class="search-box-menu d-block d-lg-none">
+                                    <a href="#" class="off-canvas-search-btn">
+                                        <span class="btn-search"><i class="fa fa-search"></i></span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-btn d-block d-lg-none">
+                                    <a class="off-canvas-btn" href="#">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Header Area End -->
+        <!-- off-canvas mobile menu start -->
+        <aside class="off-canvas-wrapper" id="mobileMenu">
+            <div class="off-canvas-overlay"></div>
+            <div class="off-canvas-inner-content">
+                <div class="btn-close-off-canvas">
+                    <i class="fa fa-times"></i>
+                </div>
+                <div class="off-canvas-inner">
+                    <div class="offcanvas-widget-area">
+                        <!-- Start Serach Box -->
+                        <div class="search-box-wrap off-canvas-item">
+                            <form action="#" method="post">
+                                <input placeholder="Search..">
+                                <button class="btn-search"><i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <!-- End Search Box -->
+                        <!-- mobile menu start -->
+                        <div class="mobile-navigation">
+                            <!-- mobile menu navigation start -->
+                            <nav>
+                                <ul class="mobile-menu">
+                                    <li id = "home" class="menu-item-has-children"><a href="#">Home</a>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="#services">Service</a></li>
+                                    <li class="menu-item-has-children"><a href="#clients">Clients</a>
+                                    </li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <!-- mobile menu navigation end -->
+                        </div>
+                        <!-- mobile menu end -->
+                        <!-- Soclial Link Start -->
+                        <div class="widget-social">
+                            <a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            <a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a title="Youtube" href="#"><i class="fa fa-youtube"></i></a>
+                        </div>
+                        <!-- Social Link End -->
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- off-canvas menu end -->
+        <!-- Offcanvas Serach Start -->
+        <aside class="off-canvas-search-wrapper">
+            <div class="off-canvas-overlay"></div>
+            <div class="off-canvas-inner-content">
+                <div class="off-canvas-inner">
+                    <form action="#" method="post">
+                        <input type="search" placeholder="Search..">
+                        <button class="search-btn"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </aside>
+        <!-- Offcanvas Search End -->
+        <!-- off-canvas menu start -->
+        <aside class="off-canvas-menu-wrapper" id="sideMenu">
+            <div class="off-canvas-overlay"></div>
+            <div class="off-canvas-inner-content">
+                <div class="off-canvas-inner">
+                    <!-- offcanvas widget area start -->
+                    <div class="offcanvas-widget-area">
+                        <!-- Start Serach Box -->
+                        <div class="search-box-wrap off-canvas-item">
+                            <form action="#" method="post">
+                                <input placeholder="Search..">
+                                <button class="btn-search"><i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <!-- End Search Box -->
+                        <ul class="menu-top-menu">
+                            <li><span>Who We Are</span></li>
+                        </ul>
+                        <p class="desc-content"> Rousseau Ventures is a Boutique consultancy based in Toronto & Montreal. We are on a mission to <i>Innovate for Impact &trade;</i>. </p>
+                        <ul class="useful-link">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Service</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                        <div class="widget-social">
+                            <ul class="menu-top-menu">
+                                <li><span>Connect With Us</span></li>
+                            </ul>
+                            <a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            <a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a title="Youtube" href="#"><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <!-- offcanvas widget area end -->
+                </div>
+                <div class="btn-close-off-canvas">
+                    <i class="fa fa-times"></i>
+                </div>
+            </div>
+        </aside>
+        <!-- off-canvas menu end -->
+    </header>
+    <!-- Header Area End Here -->
+    <!-- Video/Intro Section Start -->
+    <div class="bg-video">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="video-bg-content">
+                    <h2 class="title video-title" data-aos="fade-up" data-aos-delay="100">Innovate for Impact<i>&#8482;</i></h2>
+                    <h3 class="sub-title" data-aos="fade-up" data-aos-delay="200"> Rousseau Ventures is a Boutique consultancy based in Toronto & Montreal. Our mission is to innovate for Impact.</h3>
+                    <div class="video-bg-button" data-aos="fade-up" data-aos-delay="300">
+                        <!-- Calendly link widget begin -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                        <a class="btn btn-lg btn-light btn-hover-primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rv-consultations/30min'});return false;">Book a Consultation</a>
+                       <!-- Calendly link widget end -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video/Intro Section End -->
+    <!-- About Section Start Here -->
+    <div class="about-section pt-90 pb-90">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-xl-5 order-1 m-auto" data-aos="fade-up" data-aos-delay="100">
+                    <div id = "services" class="restaurant-about-content section-title">
+                        <h2 class="title mb-5">Where innovation, Entrepreneurship and solutions meet</h2>
+                        <p class="desc-content mb-7">Seed money optimized for social sharing channelizing fords brand awareness granular thought Lorem ipsum is dummy leadership. Engagement tweeds native contente drone. Hit the like button CPM holistic content marketing responsive. Viral native content is an ahammad long-tail chatvertizing engagement. Scalability</p>
+                        <a href="#" class="btn btn-dark btn-hover-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-7 order-0 order-lg-1" data-aos="fade-up" data-aos-delay="300">
+                    <figure class="marketing-about-thumb mb-md-40 mb-sm-40">
+                        <img class="fit-image" src="assets\images\about\IMG-6845.jpg" width = "670" height = "470" alt="About">
+                        <!-- <figcaption class="about-video-btn">
+                            <a href="www.youtube.com/watch?v=V3XFsv7k41w" class="btn-play btn-video-popup video-popup">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </figcaption> -->
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section End Here -->
+    <!-- Service Section Start Here -->
+    <div class="service-section pb-90">
+        <div class="container">
+            <div class="row text-center mb-10">
+                <div class="section-title" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="title">Industries</h3>
+                    <h4 class="sub-title mb-0">Our Specialities</h4>
+                </div>
+            </div>
+            <div class="row mb-n10">
+                <div class="col-lg-4 col-md-6 mb-10">
+                    <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fa fa-flask"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">Business Development</h4>
+                            <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-10">
+                    <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fa fa-pencil-square-o"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">Innovation Implementation</h4>
+                            <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-10">
+                    <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-icon">
+                            <i class="fa fa-compass"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">blah </h4>
+                            <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-10">
+                    <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fa fa-codepen"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">Web Development</h4>
+                            <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-10">
+                    <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="title">Article Writting</h4>
+                            <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Section End Here -->
+    <!-- Funfact Section Start Here -->
+    <div class="funfact-section d-flex flex-column justify-content-center">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters counters align-items-center">
+                <div class="col-lg-3 col-6">
+                    <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="100">
+                        <div class="counter-area">
+                            <strong class="counter">8</strong>
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="title">Active Projects</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 item">
+                    <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="300">
+                        <div class="counter-area">
+                            <strong class="counter">50</strong><span class="text-white ml-2">+</span>
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="title">Projects Done</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="600">
+                        <div class="counter-area">
+                            <strong class="counter">10</strong>
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="title">Years Acitve</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="900">
+                        <div class="counter-area">
+                            <strong class="counter">10,000</strong>
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="title">Working Hours</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Funfact Section End Here -->
+    <!-- Clients Section Start Here -->
+    <div class="portfolio-section pt-90">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center" data-aos="fade-up" data-aos-delay="100">
+                    <h4 id = "clients" class="title">Clients</h4>
+                    <h5 class="sub-title">Our Latest Collaborations</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mt-30">
+                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="300">
+                        <figure class="portfolio-thumb hover-style position-relative m-0">
+                            <a href="portfolio-details.html">
+                                <img src="assets\images\portfolio\logo-UOF.svg" alt="Portfolio Image">
+                                <div class="overlay-1"></div>
+                            </a>
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3 class="title"><a href="portfolio-details.html"> Université de l'Ontario français</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="portfolio-details.html">University</a>
+                                        <span>&nbsp;/&nbsp;</span>
+                                        <a href="portfolio-details.html"></a>
+                                    </nav>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-30">
+                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="600">
+                        <figure class="portfolio-thumb hover-style position-relative m-0">
+                            <a href="portfolio-details.html">
+                                <img src="assets\images\portfolio\logo-schulich3.jpg" alt="Portfolio Image">
+                                <div class="overlay-1"></div>
+                            </a>
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3 class="title"><a href="portfolio-details.html"> Schulich School of Business</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="portfolio-details.html">University</a>
+                                        <span>&nbsp;/&nbsp;</span>
+                                        <a href="portfolio-details.html"></a>
+                                    </nav>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-30">
+                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="900">
+                        <figure class="portfolio-thumb hover-style position-relative m-0">
+                            <a href="portfolio-details.html">
+                                <img src="assets\images\portfolio\logo-LaCite2.jpg" alt="Portfolio Image">
+                                <div class="overlay-1"></div>
+                            </a>
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3 class="title"><a href="portfolio-details.html">Collège La Cité</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="portfolio-details.html">College</a>
+                                        <span>&nbsp;/&nbsp;</span>
+                                        <a href="portfolio-details.html"></a>
+                                    </nav>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-30">
+                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="300">
+                        <figure class="portfolio-thumb hover-style position-relative m-0">
+                            <a href="portfolio-details.html">
+                                <img src="assets\images\portfolio\logo-mofif2.png" alt="Portfolio Image">
+                                <div class="overlay-1"></div>
+                            </a>
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3 class="title"><a href="portfolio-details.html">MOFIF</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="portfolio-details.html">Design</a>
+                                        <span>&nbsp;/&nbsp;</span>
+                                        <a href="portfolio-details.html">Photography</a>
+                                    </nav>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-30">
+                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="600">
+                        <figure class="portfolio-thumb hover-style position-relative m-0">
+                            <a href="portfolio-details.html">
+                                <img src="assets\images\portfolio\logo-Blackhurst2.jpeg" alt="Portfolio Image">
+                                <div class="overlay-1"></div>
+                            </a>
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3 class="title"><a href="portfolio-details.html">Blackhurst cultural center</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="portfolio-details.html">Non-Profit</a>
+                                        <span>&nbsp;/&nbsp;</span>
+                                        <a href="portfolio-details.html"></a>
+                                    </nav>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-30">
+                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="900">
+                        <figure class="portfolio-thumb hover-style position-relative m-0">
+                            <a href="portfolio-details.html">
+                                <img src="assets\images\portfolio\logo-HaitiFlag.jpg" alt="Portfolio Image">
+                                <div class="overlay-1"></div>
+                            </a>
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3 class="title"><a href="portfolio-details.html">La République d'Haïti</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="portfolio-details.html">Government</a>
+                                        <span>&nbsp;/&nbsp;</span>
+                                        <a href="portfolio-details.html"></a>
+                                    </nav>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Clients Section End Here -->
+    <!-- Testimonial Section Start Here -->
+    <div class="testimonial-section pt-90 pb-90 mt-90">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="section-title text-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="bottom bottom">
+                    <h4 class="title">Testimonial</h4>
+                    <h6 class="sub-title">What our clients say</h6>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-12">
+                    <div class="single-slide-1 swiper-container" data-aos="fade-up" data-aos-delay="300">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial swiper-slide">
+                                <div class="testimonial-author-image">
+                                    <img src="assets/images/client/1.jpg" class="img-fluid rounded-circle" alt="Client">
+                                </div>
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <span><strong>- Amelia Milly. HasTech</strong></span>
+                                </div>
+                            </div>
+                            <div class="testimonial swiper-slide">
+                                <div class="testimonial-author-image">
+                                    <img src="assets/images/client/2.jpg" class="img-fluid rounded-circle" alt="Client">
+                                </div>
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sociis natoque penatibus et magnis dis parturient montes, pharetra nec ex.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <span><strong>- Catherine Kitty. HasTech</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slider pagination -->
+                        <div class="swiper-pagination default-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial Section End Here -->
+
+    <!-- Support Section Start Here -->
+    <div class="support-area bg-light pt-90 pb-90 mt-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="support-wrapper" data-aos="fade-up" data-aos-delay="300">
+                        <div class="section-title text-center">
+                            <h1 id = "contact" class="title">Get in touch</h1>
+                            <p class="mt-5 mb-5 pb-3">Whether you want to work with us or would like to learn more about what we do, we’d love to hear from you!</p>
+                        </div>
+                        <!-- Calendly link widget begin -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                        <a class="btn btn-dark btn-hover-primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rv-consultations/30min'});return false;">Book a Consultation</a>
+                       <!-- Calendly link widget end -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Support Section End Here -->
+    <!-- Footer Section Start Here -->
+    <footer class="footer-section pt-90">
+        <div class="footer-widget-area">
+            <div class="container container-default custom-area">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-custom">
+                        <div class="single-footer-widget m-0" data-aos="fade-up" data-aos-delay="300">
+                            <div class="footer-logo pb-3">
+                                <a href="#home">
+                                    <img src="assets\images\logo\TW-RousseauVentures-ICON-black-Reverse.jpg" alt="Logo Image">
+                                </a>
+                            </div>
+                            <p class="desc-content pt-3 pb-3">For Media inquires please contact our Media Department
+                                <br> 
+                                Media@RousseauVentures.com
+                            </p>
+                            <!-- Soclial Link Start -->
+                            <div class="widget-social pt-4">
+                                <a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                <a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                                <a title="Youtube" href="#"><i class="fa fa-youtube"></i></a>
+                                <a title="instagram" href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <!-- Social Link End -->
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2 col-custom">
+                        <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="500">
+                            <h2 class="widget-title">Quicklink</h2>
+                            <ul class="widget-list pt-3">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Clients</a></li>
+                                <li><a href="#">Conditin</a></li>
+                                <li><a href="#">Term Of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-custom">
+                        <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="600">
+                            <h2 class="widget-title">Get in Touch</h2>
+                            <div class="widget-body pt-3">
+                                <p class="desc-content pb-3">Enter your email and receive the latest news from us.</p>
+                                <div class="newsletter-form-wrap pt-4">
+                                    <form id="mc-form" class="mc-form d-flex position-relative">
+                                        <input type="email" id="mc-email" class="form-control email-box rounded-0" placeholder="email@example.com" name="EMAIL">
+                                        <button id="mc-submit" class="btn newsletter-btn position-absolute" type="submit"><i class="fa fa-envelope"></i></button>
+                                    </form>
+                                    <!-- mailchimp-alerts Start -->
+                                    <div class="mailchimp-alerts text-centre">
+                                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                        <div class="mailchimp-success text-success"></div><!-- mailchimp-success end -->
+                                        <div class="mailchimp-error text-danger"></div><!-- mailchimp-error end -->
+                                    </div>
+                                    <!-- mailchimp-alerts end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright-area pt-5 border-top mt-90 mb-5">
+            <div class="container custom-area">
+                <div class="row">
+                    <div class="col-12 text-center col-custom">
+                        <div class="copyright-content">
+                            <p class="mb-0">Copyright © 2022 based on HasThemes | Built with&nbsp;<strong>Love</strong>&nbsp;by DAKA Inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End Here -->
+
+
+
+    <!-- Scroll Top Start Here -->
+    <a href="#" class="scroll-top" id="scroll-top">
+        <i class="arrow-top fa fa-angle-double-up"></i>
+        <i class="arrow-bottom fa fa-angle-double-up"></i>
+    </a>
+    <!-- Scroll Top End Here -->
+
+    <!-- Global Vendor, plugins JS -->
+
+    <!-- Vendors JS -->
+    <!--
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    -->
+
+    <!-- Plugins JS -->
+    <!--
+    <script src="assets/js/plugins/splitting.min.js"></script>
+    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/plugins/counter.min.js"></script>
+    <script src="assets/js/plugins/aos.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.vide.min.js"></script>
+    <script src="assets/js/plugins/masonry.min.js"></script>
+    <script src="assets/js/plugins/theia-sticky-sidebar.min.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <script src="assets/js/plugins/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/plugins/jquery-ui.min.js"></script>
+    -->
+
+    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+    <script src="assets/js/vendor/vendor.min.js"></script>
+    <script src="assets/js/plugins/plugins.min.js"></script>
+
+    <!--Main JS-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
